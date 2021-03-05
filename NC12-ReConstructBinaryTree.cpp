@@ -1,7 +1,6 @@
-#include <vector>
 #include "NowCoder.h"
 
-#ifdef KonwledgePoint
+#ifdef KonwledgePoints
 [NC12]重建二叉树
 1、已知前序和中序遍历，可以确定一棵二叉树。已知中序和后序遍历，可以确定一棵二叉树。但是，已知前序和后序遍历，不能确定一棵二叉树。
 2、(pre_left + (i - vin_left)) 原二叉树左子树范围(右边界)
@@ -11,13 +10,13 @@
 class Solution
 {
 public:
-	TreeNode* ReConstructBinaryTree(vector<int> pre, vector<int> vin) {
+	NCtreeNode* ReConstructBinaryTree(vector<int> pre, vector<int> vin) {
 		return rebuild(pre, 0, pre.size() - 1, vin, 0, vin.size() - 1);
 	}
 private:
-	TreeNode* rebuild(vector<int>& pre, int pre_left, int pre_right, vector<int>& vin, int vin_left, int vin_right)
+	NCtreeNode* rebuild(vector<int>& pre, int pre_left, int pre_right, vector<int>& vin, int vin_left, int vin_right)
 	{
-		TreeNode* root = new TreeNode(pre[pre_left]); //获取节点值
+		NCtreeNode* root = new NCtreeNode(pre[pre_left]); //获取节点值
 		root->left = NULL;
 		root->right = NULL;
 
@@ -49,11 +48,11 @@ private:
 #ifdef main
 int main(int argc, char* argv[])
 {
-	NowCoder n;
+	NCtree n;
 	Solution s;
 	vector<int> pre = { 1,2,3,4,5,6,7 };
 	vector<int> vin = { 3,2,4,1,6,5,7 };
-	TreeNode* root = s.ReConstructBinaryTree(pre, vin);
+	NCtreeNode* root = s.ReConstructBinaryTree(pre, vin);
 	n.LevelOrder(root);
 	
 	system("pause");

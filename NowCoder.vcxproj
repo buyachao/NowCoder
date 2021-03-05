@@ -139,8 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LinkList.cpp" />
     <ClCompile Include="NC09-HasPathSum.cpp" />
     <ClCompile Include="NC12-ReConstructBinaryTree.cpp" />
+    <ClCompile Include="NC13-MaxDepth.cpp" />
+    <ClCompile Include="NC04-HasCycle.cpp" />
+    <ClCompile Include="NC61-TwoSum.cpp" />
     <ClCompile Include="NowCoder.cpp" />
     <ClCompile Include="NC11-SortedArrayToBST.cpp" />
   </ItemGroup>
