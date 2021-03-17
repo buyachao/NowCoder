@@ -144,8 +144,10 @@
     <ClCompile Include="NC12-ReConstructBinaryTree.cpp" />
     <ClCompile Include="NC13-MaxDepth.cpp" />
     <ClCompile Include="NC04-HasCycle.cpp" />
+    <ClCompile Include="NC22-Merge.cpp" />
     <ClCompile Include="NC33-MergeTwoLists.cpp" />
     <ClCompile Include="NC61-TwoSum.cpp" />
+    <ClCompile Include="NC74-GetNumberOfK.cpp" />
     <ClCompile Include="NC78-ReverseList.cpp" />
     <ClCompile Include="NowCoder.cpp" />
     <ClCompile Include="NC11-SortedArrayToBST.cpp" />
