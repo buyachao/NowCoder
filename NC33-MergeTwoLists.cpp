@@ -2,7 +2,7 @@
 
 #ifdef KnowledgePoints
 [NC33]合并有序链表
-时间 : O(n)    空间 : O(1)
+时间:O(n)    空间:O(1)
 通过调整链表指针达到反转链表
 #endif
 

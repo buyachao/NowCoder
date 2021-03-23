@@ -51,6 +51,9 @@
     <ClCompile Include="NC74-GetNumberOfK.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="NC27-SubSets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NowCoder.h">

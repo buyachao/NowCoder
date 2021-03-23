@@ -2,6 +2,7 @@
 
 #ifdef KnowledgePoints
 [NC13]二叉树的最大深度
+时间:O(n)    空间:O(logn)
 1、递归思路，记录根节点到最远叶子节点的数量
 2、队列思路，
 #endif
@@ -12,6 +13,7 @@ public:
 		int iNCtreeLen = 0;
 		iNCtreeLen = PostOrder(root);
 		return iNCtreeLen;
+		//return max(PostOrder(root->left), PostOrder(root->right)) + 1; //后续遍历
 	}
 private:
 	int PostOrder(NCtreeNode* root)

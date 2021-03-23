@@ -2,6 +2,7 @@
 
 #ifdef KonwledgePoints
 [NC9]二叉树中是否存在节点和为指定值的路径
+时间:O(n)    空间:O(logn)
 1、DFS广度优先算法
 2、二叉树先序遍历
 #endif 
