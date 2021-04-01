@@ -19,6 +19,13 @@ struct NClistNode
 	NClistNode(int x) : val(x), next(NULL) {} //初始化当前结点值为x,指针为空
 };
 
+//题库
+struct TreeNode {
+	int val;
+	struct TreeNode* left;
+	struct TreeNode* right;
+};
+
 //普通二叉树结构
 struct NCtreeNode
 {

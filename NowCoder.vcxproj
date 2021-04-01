@@ -139,8 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LinkList.cpp" />
     <ClCompile Include="NC09-HasPathSum.cpp" />
+    <ClCompile Include="NC117-MergeTrees.cpp" />
     <ClCompile Include="NC12-ReConstructBinaryTree.cpp" />
     <ClCompile Include="NC13-MaxDepth.cpp" />
     <ClCompile Include="NC04-HasCycle.cpp" />
@@ -152,6 +152,7 @@
     <ClCompile Include="NC78-ReverseList.cpp" />
     <ClCompile Include="NowCoder.cpp" />
     <ClCompile Include="NC11-SortedArrayToBST.cpp" />
+    <ClCompile Include="NC45-ThreeOrders.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NowCoder.h" />
